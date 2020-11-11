@@ -44,3 +44,8 @@ class Invoice:
                 continue
             else:
                 return userInput
+
+    def changeQuanityAndPrice(self, quantity, price):
+        self.items['qnt'] = quantity
+        self.items['unit_price'] = price
+
